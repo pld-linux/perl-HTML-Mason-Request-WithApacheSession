@@ -14,7 +14,7 @@ URL:		http://www.masonhq.com/
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-26
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Apache-Session >= 1.54
 BuildRequires:	perl-HTML-Mason >= 1.12

@@ -8,7 +8,7 @@ Summary:	Add a session to the Mason Request object
 Summary(pl):	Dodanie sesji do obiektu Mason::Request
 Name:		perl-HTML-Mason-Request-WithApacheSession
 Version:	0.07
-Release:	1
+Release:	2
 License:	GPL/Artistic
 URL:		http://www.masonhq.com/
 Group:		Development/Languages/Perl
@@ -18,6 +18,8 @@ BuildRequires:	rpm-perlprov >= 3.0.3-26
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Apache-Session >= 1.54
 BuildRequires:	perl-HTML-Mason >= 1.12
+# for proper dependency resolving:
+BuildRequires:	perl-libapreq
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

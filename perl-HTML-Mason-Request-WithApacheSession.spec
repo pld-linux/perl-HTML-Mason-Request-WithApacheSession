@@ -4,8 +4,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	Mason-Request-WithApacheSession
-Summary:	Add a session to the Mason Request object
-Summary(pl):	Dodanie sesji do obiektu Mason::Request
+Summary:	HTML::Mason::Request::WithApacheSession - add a session to the Mason Request object
+Summary(pl):	HTML::Mason::Request::WithApacheSession - dodanie sesji do obiektu Mason::Request
 Name:		perl-HTML-Mason-Request-WithApacheSession
 Version:	0.07
 Release:	3

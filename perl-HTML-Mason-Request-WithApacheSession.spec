@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	HTML
-%define		pnam	Mason-Request-WithApacheSession
+%define	pdir	HTML
+%define	pnam	Mason-Request-WithApacheSession
 Summary:	HTML::Mason::Request::WithApacheSession - add a session to the Mason Request object
 Summary(pl):	HTML::Mason::Request::WithApacheSession - dodanie sesji do obiektu Mason::Request
 Name:		perl-HTML-Mason-Request-WithApacheSession

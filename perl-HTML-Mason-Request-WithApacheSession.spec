@@ -10,7 +10,8 @@ Summary(pl):	HTML::Mason::Request::WithApacheSession - dodanie sesji do obiektu 
 Name:		perl-HTML-Mason-Request-WithApacheSession
 Version:	0.07
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 URL:		http://www.masonhq.com/
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

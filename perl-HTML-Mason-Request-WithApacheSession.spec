@@ -38,7 +38,7 @@ obiektu Request, dostêpnego we wszystkich komponentach Masona.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 

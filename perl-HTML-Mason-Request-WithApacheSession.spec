@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Mason-Request-WithApacheSession
 Summary:	HTML::Mason::Request::WithApacheSession - add a session to the Mason Request object
-Summary(pl):	HTML::Mason::Request::WithApacheSession - dodanie sesji do obiektu Mason::Request
+Summary(pl.UTF-8):   HTML::Mason::Request::WithApacheSession - dodanie sesji do obiektu Mason::Request
 Name:		perl-HTML-Mason-Request-WithApacheSession
 Version:	0.07
 Release:	3
@@ -31,9 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module integrates "Apache::Session" into Mason by adding methods
 to the Mason Request object available in all Mason components.
 
-%description -l pl
-Ten modu³ integruje Apache::Session w Masona poprzez dodanie metod do
-obiektu Request, dostêpnego we wszystkich komponentach Masona.
+%description -l pl.UTF-8
+Ten moduÅ‚ integruje Apache::Session w Masona poprzez dodanie metod do
+obiektu Request, dostÄ™pnego we wszystkich komponentach Masona.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

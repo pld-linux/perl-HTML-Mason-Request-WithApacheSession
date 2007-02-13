@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Mason-Request-WithApacheSession
 Summary:	HTML::Mason::Request::WithApacheSession - add a session to the Mason Request object
-Summary(pl.UTF-8):   HTML::Mason::Request::WithApacheSession - dodanie sesji do obiektu Mason::Request
+Summary(pl.UTF-8):	HTML::Mason::Request::WithApacheSession - dodanie sesji do obiektu Mason::Request
 Name:		perl-HTML-Mason-Request-WithApacheSession
 Version:	0.07
 Release:	3
